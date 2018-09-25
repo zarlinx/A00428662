@@ -3,13 +3,12 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.Reader;
 import java.io.FileWriter;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
+import org.apache.log4j.Logger;
 
 public class DirWalker {
-	
+	final static Logger logger = Logger.getLogger(DirWalker.class);	
 	static long validRows= 0;
 	static int skippedRows= 0;	
 	static FileWriter fileWriter = null;
@@ -30,13 +29,14 @@ public class DirWalker {
 		    fileWriter.append( "Date" );
 		    fileWriter.append( "\n" );
 		} catch ( IOException e) {
-			Logger.getLogger("01").log(Level.SEVERE, e.getMessage());
+			logger.error("IOException",e);
     		e.printStackTrace();		
 	    }
 	}
 	
 	
-    public void walk( String path) {    
+    public void walk( String path) {  
+    	
     	File root = new File( path );
         File[] list = root.listFiles(); 
         
@@ -44,10 +44,10 @@ public class DirWalker {
         	if (list == null) {
         		throw new IOException("File not found");}
         }catch(IOException e) {
-        	Logger.getLogger("01").log(Level.SEVERE, e.getMessage());
+        	logger.error("IOException",e);
+    		e.printStackTrace();		
         	return;
-        }
-        
+        }        
         
         for ( File f : list ) {
             if ( f.isDirectory() ) {
@@ -71,7 +71,7 @@ public class DirWalker {
         				for( int i= 0; i < record.size(); i++ ) {	
         					tuple+= record.get(i)+ ","; 
         					if( record.get(i).length() == 0 ) {	        											
-        						j=0;
+        						j=0;        						
         					}        					
         					}
         				fileWriter.append(tuple);
@@ -81,11 +81,11 @@ public class DirWalker {
         					validRows++;
         				}
         				else{
-        					skippedRows++;
+        					skippedRows++;        					
         				}
         			}        
                 } catch(IOException e) {
-                	Logger.getLogger("02").log(Level.SEVERE, e.getMessage());
+                	logger.error("IOException",e);
                 	e.printStackTrace();
                 }
             }
@@ -93,23 +93,22 @@ public class DirWalker {
     }	
 
 	
-    public static void main(String[] args) {		
-    	final long startTime = System.currentTimeMillis();		
-	      System.setProperty("java.util.logging.config.file",
-	              "./logging.properties");		
+    public static void main(String[] args) {	
+    	
+    	final long startTime = System.currentTimeMillis();	
     	DirWalker fw = new DirWalker();    	
     	
-    	fw.outputFile( "C:\\Users\\10901\\Documents\\Github\\MCDA5510_Assignments\\Assignment1\\Assignment1\\output\\output.csv");
+    	fw.outputFile( "C:\\Users\\10901\\Documents\\Github\\MCDA5510_Assignments\\Assignment1\\Assignment1\\output\\result.csv");
         fw.walk( "C:\\Users\\10901\\Documents\\GitHub\\MCDA5510_Assignments\\Sample Data\\" ); 
     	try {    		
 			DirWalker.fileWriter.close();
 		} catch (IOException e) {
-			Logger.getLogger("01").log(Level.SEVERE, e.getMessage());
+			logger.error("IOException",e);    	
 			e.printStackTrace();
 		} 
     	
 	    final long endTime = System.currentTimeMillis();	
-		Logger.getLogger("02").log(Level.INFO,"Total Execution Time: " + (endTime - startTime) +" ms" + "\n" + "Number Of Valid Rows :" + validRows + "\n" + "Number Of Skipped Rows :" + skippedRows);
+	    logger.info("\nTotal Execution Time: " + (endTime - startTime) +" ms" + "\n" + "Number Of Valid Rows :" + validRows + "\n" + "Number Of Skipped Rows :" + skippedRows);
     }
 
 }
