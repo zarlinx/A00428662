@@ -81,11 +81,12 @@ public class DirWalker {
         					validRows++;
         				}
         				else{
-        					skippedRows++;        					
+        					skippedRows++;
+                                                logger.info("A Row Has been skipped!");        					
         				}
         			}        
                 } catch(IOException e) {
-                	logger.error("IOException",e);
+                	logger.error("IOException:"+ e);
                 	e.printStackTrace();
                 }
             }
@@ -98,8 +99,8 @@ public class DirWalker {
     	final long startTime = System.currentTimeMillis();	
     	DirWalker fw = new DirWalker();    	
     	
-    	fw.outputFile( "C:\\Users\\10901\\Documents\\Github\\MCDA5510_Assignments\\Assignment1\\Assignment1\\output\\result.csv");
-        fw.walk( "C:\\Users\\10901\\Documents\\GitHub\\MCDA5510_Assignments\\Sample Data\\" ); 
+    	fw.outputFile( "/home/student_2018_fall/q_cai/A00428662-MCDA5510/Assignment1/output/result.csv");
+        fw.walk( "/home/student_2018_fall/q_cai/A00428662-MCDA5510/Sample Data/" ); 
     	try {    		
 			DirWalker.fileWriter.close();
 		} catch (IOException e) {
