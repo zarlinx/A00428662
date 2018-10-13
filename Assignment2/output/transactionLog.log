@@ -1,0 +1,70 @@
+2018-10-12 21:05:48 INFO  Assignment2:490 - Remove succeed! The Transaction records now are :
+2018-10-12 21:06:26 ERROR Assignment2:246 - Invalid input! Card number should specify.
+2018-10-12 21:06:56 ERROR Assignment2:286 - Invalid input! Expire date should be between 01/2016 to 12/2031.
+2018-10-12 21:07:07 INFO  Assignment2:394 - Succeed! The transaction record created is : 
+[ID: 1, NameOnCard: Qian Cai, CardNumber: 5212345678901234, UnitPrice: 12.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-12 21:05:44, CreatedBy: mcdaCreditCardType: MasterCard]
+2018-10-12 21:07:26 INFO  Assignment2:435 - Success! The transaction record got is : 
+[ID: 1, NameOnCard: Qian Cai, CardNumber: 5212345678901234, UnitPrice: 12.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-12 21:05:44, CreatedBy: mcdaCreditCardType: MasterCard]
+2018-10-12 21:08:09 ERROR Assignment2:258 - Invalid input! unit price should be an double.
+2018-10-12 21:08:21 ERROR Assignment2:286 - Invalid input! Expire date should be between 01/2016 to 12/2031.
+2018-10-12 21:08:29 ERROR Assignment2:174 - Invalid input! Please specify Visa type.
+2018-10-12 21:08:32 ERROR Assignment2:182 - Invalid input! Please specify American Express type.
+2018-10-12 21:08:36 INFO  Assignment2:418 - Succeed! The transaction record updated is : 
+[ID: 1, NameOnCard: Chandler Cai, CardNumber: 5212345678901234, UnitPrice: 12.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-12 21:05:44, CreatedBy: mcdaCreditCardType: MasterCard]
+2018-10-12 21:08:46 INFO  Assignment2:435 - Success! The transaction record got is : 
+[ID: 1, NameOnCard: Chandler Cai, CardNumber: 5212345678901234, UnitPrice: 12.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-12 21:05:44, CreatedBy: mcdaCreditCardType: MasterCard]
+2018-10-12 21:09:09 INFO  Assignment2:490 - Remove succeed! The Transaction records now are :
+2018-10-12 21:09:29 ERROR Assignment2:246 - Invalid input! Card number should specify.
+2018-10-12 21:09:55 ERROR Assignment2:286 - Invalid input! Expire date should be between 01/2016 to 12/2031.
+2018-10-12 21:10:06 ERROR Assignment2:166 - Invalid input! Please specify MasterCard type.
+2018-10-12 21:10:07 ERROR Assignment2:174 - Invalid input! Please specify Visa type.
+2018-10-12 21:10:08 INFO  Assignment2:394 - Succeed! The transaction record created is : 
+[ID: 11, NameOnCard: asdfas, CardNumber: 371234567890123, UnitPrice: 123.0, Quantity: 23, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-12 21:05:44, CreatedBy: mcdaCreditCardType: American Express]
+2018-10-12 21:10:36 ERROR Assignment2:205 - Creating transaction record failed! ID(Primary Key) already exists.
+2018-10-12 21:10:47 ERROR Assignment2:319 - Update failed! ID(Primary Key) does Not exist.
+2018-10-12 21:10:55 ERROR Assignment2:362 - Retrieve failed! ID(Primary Key) does NOT exists.
+2018-10-12 21:11:00 ERROR Assignment2:466 - Delete failed! ID(Primary Key) does NOT exists.
+2018-10-13 12:00:15 INFO  Assignment2:391 - Succeed! The transaction record created is : 
+[ID: 1, NameOnCard: Qian Cai, CardNumber: 5212345678901234, UnitPrice: 123.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-13 11:59:34, CreatedBy: q_caiCreditCardType: MasterCard]
+2018-10-13 12:00:44 ERROR Assignment2:145 - Invalid input! Choose operation from 1 to 4.
+2018-10-13 12:01:06 ERROR Assignment2:145 - Invalid input! Choose operation from 1 to 4.
+2018-10-13 19:22:34 INFO  Assignment2:432 - Success! The transaction record got is : 
+[ID: 0, NameOnCard: null, CardNumber: null, UnitPrice: 0.0, Quantity: 0, TotalPrice: 0.0, ExpDate: null, CreatedOn: 2018-10-13 19:22:29, CreatedBy: q_caiCreditCardType: null]
+2018-10-13 19:23:12 ERROR Assignment2:283 - Invalid input! Expire date should be between 01/2016 to 12/2031.
+2018-10-13 19:23:22 INFO  Assignment2:391 - Succeed! The transaction record created is : 
+[ID: 2, NameOnCard: Yixuan Fan, CardNumber: 4123456789012345, UnitPrice: 12.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-13 19:22:29, CreatedBy: q_caiCreditCardType: Visa]
+2018-10-13 19:23:44 ERROR Assignment2:243 - Invalid input! Card number should specify.
+2018-10-13 19:23:55 ERROR Assignment2:243 - Invalid input! Card number should specify.
+2018-10-13 19:24:33 INFO  Assignment2:391 - Succeed! The transaction record created is : 
+[ID: 3, NameOnCard: Yibang Cai, CardNumber: 371234567890123, UnitPrice: 2.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-13 19:22:29, CreatedBy: q_caiCreditCardType: American Express]
+2018-10-13 19:24:36 INFO  Assignment2:432 - Success! The transaction record got is : 
+[ID: 3, NameOnCard: Yibang Cai, CardNumber: 371234567890123, UnitPrice: 2.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-13 19:22:29, CreatedBy: q_caiCreditCardType: American Express]
+2018-10-13 19:25:06 INFO  Assignment2:415 - Succeed! The transaction record updated is : 
+[ID: 3, NameOnCard: Chandler Cai, CardNumber: 5212345678901234, UnitPrice: 12.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-13 19:22:29, CreatedBy: q_caiCreditCardType: MasterCard]
+2018-10-13 19:25:16 ERROR Assignment2:211 - Invalid input! ID should be an integer.
+2018-10-13 19:25:18 ERROR Assignment2:202 - Creating transaction record failed! ID(Primary Key) already exists.
+2018-10-13 19:25:20 ERROR Assignment2:202 - Creating transaction record failed! ID(Primary Key) already exists.
+2018-10-13 19:25:45 INFO  Assignment2:391 - Succeed! The transaction record created is : 
+[ID: 4, NameOnCard: asdf, CardNumber: 5512345678901234, UnitPrice: 123.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-13 19:22:29, CreatedBy: q_caiCreditCardType: MasterCard]
+2018-10-13 19:26:07 ERROR Assignment2:359 - Retrieve failed! ID(Primary Key) does NOT exists.
+2018-10-13 19:26:16 ERROR Assignment2:316 - Update failed! ID(Primary Key) does Not exist.
+2018-10-13 19:26:20 ERROR Assignment2:463 - Delete failed! ID(Primary Key) does NOT exists.
+2018-10-13 19:26:30 ERROR Assignment2:202 - Creating transaction record failed! ID(Primary Key) already exists.
+2018-10-13 19:26:37 INFO  Assignment2:487 - Remove succeed! The Transaction records now are :
+2018-10-13 19:27:39 ERROR Assignment2:463 - Delete failed! ID(Primary Key) does NOT exists.
+2018-10-13 19:27:47 ERROR Assignment2:359 - Retrieve failed! ID(Primary Key) does NOT exists.
+2018-10-13 19:28:23 INFO  Assignment2:391 - Succeed! The transaction record created is : 
+[ID: 4, NameOnCard: sdfasdf, CardNumber: 4123456789012349, UnitPrice: 12.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-13 19:27:35, CreatedBy: q_caiCreditCardType: Visa]
+2018-10-13 19:28:26 INFO  Assignment2:487 - Remove succeed! The Transaction records now are :
+2018-10-13 19:32:53 ERROR Assignment2:463 - Delete failed! ID(Primary Key) does NOT exists.
+2018-10-13 19:33:00 ERROR Assignment2:359 - Retrieve failed! ID(Primary Key) does NOT exists.
+2018-10-13 19:33:06 INFO  Assignment2:487 - Remove succeed! The Transaction records now are :
+2018-10-13 19:35:47 ERROR Assignment2:359 - Retrieve failed! ID(Primary Key) does NOT exists.
+2018-10-13 19:35:50 ERROR Assignment2:359 - Retrieve failed! ID(Primary Key) does NOT exists.
+2018-10-13 19:35:59 INFO  Assignment2:432 - Success! The transaction record got is : 
+[ID: 0, NameOnCard: null, CardNumber: null, UnitPrice: 0.0, Quantity: 0, TotalPrice: 0.0, ExpDate: null, CreatedOn: 2018-10-13 19:35:43, CreatedBy: q_caiCreditCardType: null]
+2018-10-13 19:36:05 INFO  Assignment2:487 - Remove succeed!
+2018-10-13 19:36:46 INFO  Assignment2:391 - Succeed! The transaction record created is : 
+[ID: 2, NameOnCard: Yixuan Fan, CardNumber: 4123456789012348, UnitPrice: 123.0, Quantity: 2, TotalPrice: 0.0, ExpDate: 02/2020, CreatedOn: 2018-10-13 19:35:43, CreatedBy: q_caiCreditCardType: Visa]
+2018-10-13 19:37:10 INFO  Assignment2:487 - Remove succeed!
+2018-10-13 19:37:20 ERROR Assignment2:463 - Delete failed! ID(Primary Key) does NOT exists.
