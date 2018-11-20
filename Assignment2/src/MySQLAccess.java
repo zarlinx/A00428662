@@ -35,13 +35,13 @@ public class MySQLAccess {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			// Setup the connection with the DB
 
-			connection = DriverManager.getConnection("jdbc:mysql://localhost/q_cai?" // DTP
+			connection = DriverManager.getConnection("jdbc:mysql://localhost/Transactions?" // DTP
 																							// I
 																							// spelled
 																							// transactoins
 																							// wrong
 																							// oops
-					+ "user=q_cai&password=A00428662" // Creds
+					+ "user=root&password=root123" // Creds
 					+ "&useSSL=false" // b/c localhost
 					+ "&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC"); // timezone
 

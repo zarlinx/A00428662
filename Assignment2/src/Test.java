@@ -4,7 +4,7 @@ import java.util.Collection;
 
 import org.apache.log4j.Logger;
 
-public class Assignment2 {
+public class Test {
 	final static Logger logger = Logger.getLogger(Assignment2.class);
 	static Connection connection = null;
 
