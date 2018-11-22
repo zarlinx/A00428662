@@ -8,7 +8,7 @@
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="C:/Users/10901/eclipse-workspace/A00428662-MCDA5510/Assignment3/lib/mysql-connector-java-8.0.13.jar"/>
-	<classpathentry kind="lib" path="C:/Users/10901/eclipse-workspace/A00428662-MCDA5510/Assignment3/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10901/eclipse-workspace/A00428662-MCDA5510/Assignment3beta/lib/log4j.jar"/>
+	<classpathentry kind="lib" path="C:/Users/10901/eclipse-workspace/A00428662-MCDA5510/Assignment3beta/lib/mysql-connector-java-8.0.13.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

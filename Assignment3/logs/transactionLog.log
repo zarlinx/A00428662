@@ -1,0 +1,418 @@
+2018-11-22 10:05:03 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:10:32 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:14:27 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:21:18 INFO  MyWebService:507 - Get approved!    ID: 1,
+ Name On Card: Qian Cai,
+ Card Number: 5212345678901234
+, Unit Price: 12.0
+, Quantity: 2
+, Total Price: 24.0
+, Expire Date: 02/2020
+, Created On: 2018-11-19 17:51:25
+, Created By: 10901
+2018-11-22 10:21:49 INFO  MyWebService:507 - Get approved!    ID: 2,
+ Name On Card: Yibang Cai,
+ Card Number: null
+, Unit Price: 0.0
+, Quantity: 0
+, Total Price: 0.0
+, Expire Date: null
+, Created On: 2018-11-19 22:00:49
+, Created By: 10901
+2018-11-22 10:21:50 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:22:42 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:22:50 INFO  MyWebService:507 - Get approved!    
+ID: 1,
+ Name On Card: Qian Cai,
+ Card Number: 5212345678901234
+, Unit Price: 12.0
+, Quantity: 2
+, Total Price: 24.0
+, Expire Date: 02/2020
+, Created On: 2018-11-19 17:51:25
+, Created By: 10901
+2018-11-22 10:26:21 INFO  MyWebService:507 - Get approved!    
+ID: 2,
+ Name On Card: Yibang Cai,
+ Card Number: null
+, Unit Price: 0.0
+, Quantity: 0
+, Total Price: 0.0
+, Expire Date: null
+, Created On: 2018-11-19 22:00:49
+, Created By: 10901
+2018-11-22 10:26:25 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:26:37 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:26:50 INFO  MyWebService:507 - Get approved!    
+ ID: 1
+ Name On Card: Qian Cai
+ Card Number: 5212345678901234
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 02/2020
+ Created On: 2018-11-19 17:51:25
+ Created By: 10901
+2018-11-22 10:27:20 INFO  MyWebService:486 - Get rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 10:29:07 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:29:24 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:29:34 INFO  MyWebService:507 - Get approved!    
+ ID: 5
+ Name On Card: qwer
+ Card Number: 123
+ Unit Price: 12.0
+ Quantity: 12
+ Total Price: 144.0
+ Expire Date: asdf
+ Created On: 2018-11-21 09:50:59
+ Created By: 10901
+2018-11-22 10:29:43 INFO  MyWebService:564 - Delete rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 10:29:48 INFO  MyWebService:576 - Delete approved!    
+
+2018-11-22 10:31:09 INFO  MyWebService:507 - Get approved!    
+ ID: 1
+ Name On Card: Qian Cai
+ Card Number: 5212345678901234
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 02/2020
+ Created On: 2018-11-19 17:51:25
+ Created By: 10901
+2018-11-22 10:31:11 INFO  MyWebService:507 - Get approved!    
+ ID: 2
+ Name On Card: Yibang Cai
+ Card Number: null
+ Unit Price: 0.0
+ Quantity: 0
+ Total Price: 0.0
+ Expire Date: null
+ Created On: 2018-11-19 22:00:49
+ Created By: 10901
+2018-11-22 10:31:15 INFO  MyWebService:507 - Get approved!    
+ ID: 3
+ Name On Card: Yixuan Fan
+ Card Number: 5212345678901234
+ Unit Price: 12.22
+ Quantity: 2
+ Total Price: 24.44
+ Expire Date: 02/2020
+ Created On: 2018-11-19 22:14:15
+ Created By: 10901
+2018-11-22 10:31:19 INFO  MyWebService:507 - Get approved!    
+ ID: 4
+ Name On Card: Ming Fan
+ Card Number: 5112345678901234
+ Unit Price: 12.0
+ Quantity: 12
+ Total Price: 144.0
+ Expire Date: 02/2020
+ Created On: 2018-11-19 22:47:22
+ Created By: 10901
+2018-11-22 10:31:24 INFO  MyWebService:486 - Get rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 10:32:43 INFO  MyWebService:507 - Get approved!    
+ ID: 6
+ Name On Card: null
+ Card Number: null
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 12
+ Created On: 2018-11-22 10:32:38
+ Created By: 10901
+2018-11-22 10:35:37 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:45:03 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:45:11 INFO  MyWebService:513 - Get approved!    
+ ID: 6
+ Name On Card: null
+ Card Number: null
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 12
+ Created On: 2018-11-22 10:32:38
+ Created By: 10901
+2018-11-22 10:45:39 INFO  MyWebService:513 - Get approved!    
+ ID: 6
+ Name On Card: null
+ Card Number: null
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 12
+ Created On: 2018-11-22 10:32:38
+ Created By: 10901
+2018-11-22 10:46:04 INFO  MyWebService:377 - Create rejected!    
+ID(Primary Key) already exists.
+2018-11-22 10:46:17 INFO  MyWebService:377 - Create rejected!    
+ID(Primary Key) already exists.
+2018-11-22 10:46:37 INFO  MyWebService:377 - Create rejected!    
+ID(Primary Key) already exists.
+2018-11-22 10:47:39 INFO  MyWebService:359 - But ';:!@#$%^*+?<>'!    
+
+2018-11-22 10:47:50 INFO  MyWebService:492 - Get rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 10:51:37 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:52:33 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:52:44 INFO  MyWebService:506 - Get approved!    
+ ID: 6
+ Name On Card: null
+ Card Number: null
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 12
+ Created On: 2018-11-22 10:32:38
+ Created By: 10901
+2018-11-22 10:53:56 INFO  MyWebService:352 - Invalid input!    
+';:!@#$%^*+?<>'shall not be contained.    
+
+2018-11-22 10:54:06 INFO  MyWebService:352 - Invalid input!    
+';:!@#$%^*+?<>'shall not be contained.    
+
+2018-11-22 10:54:14 INFO  MyWebService:355 - Validation approved!    
+
+2018-11-22 10:54:14 INFO  MyWebService:398 - Create success!    
+The transaction record created is : 
+[ID: 7, NameOnCard: asdf, CardNumber: sdf, UnitPrice: 12.0, Quantity: 2, TotalPrice: 0.0, ExpDate: asdf&, CreatedOn: 2018-11-22 10:54:14, CreatedBy: 10901, CreditCardType: null]
+2018-11-22 10:55:34 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 11:03:38 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 11:03:47 INFO  MyWebService:502 - Get approved!    
+ ID: 6
+ Name On Card: null
+ Card Number: null
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 12
+ Created On: 2018-11-22 10:32:38
+ Created By: 10901
+2018-11-22 11:03:58 INFO  MyWebService:502 - Get approved!    
+ ID: 7
+ Name On Card: asdf
+ Card Number: sdf
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: asdf&
+ Created On: 2018-11-22 10:54:14
+ Created By: 10901
+2018-11-22 11:04:03 INFO  MyWebService:502 - Get approved!    
+ ID: 6
+ Name On Card: null
+ Card Number: null
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 12
+ Created On: 2018-11-22 10:32:38
+ Created By: 10901
+2018-11-22 11:04:44 INFO  MyWebService:347 - Invalid input!    
+';:!@#$%^*+?<>'shall not be contained.    
+
+2018-11-22 11:04:50 INFO  MyWebService:347 - Invalid input!    
+';:!@#$%^*+?<>'shall not be contained.    
+
+2018-11-22 11:04:53 INFO  MyWebService:347 - Invalid input!    
+';:!@#$%^*+?<>'shall not be contained.    
+
+2018-11-22 11:04:57 INFO  MyWebService:350 - Validation approved!    
+
+2018-11-22 11:04:57 INFO  MyWebService:451 - Update success!    
+The transaction record updated is : 
+[ID: 6, NameOnCard: asdf, CardNumber: sdadf, UnitPrice: 22.0, Quantity: 2, TotalPrice: 0.0, ExpDate: df, CreatedOn: 2018-11-22 11:04:57, CreatedBy: 10901, CreditCardType: null]
+2018-11-22 11:09:00 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 11:09:09 INFO  MyWebService:481 - Get rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 11:09:10 INFO  MyWebService:502 - Get approved!    
+ ID: 1
+ Name On Card: Qian Cai
+ Card Number: 5212345678901234
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 02/2020
+ Created On: 2018-11-19 17:51:25
+ Created By: 10901
+2018-11-22 11:09:12 INFO  MyWebService:502 - Get approved!    
+ ID: 2
+ Name On Card: Yibang Cai
+ Card Number: null
+ Unit Price: 0.0
+ Quantity: 0
+ Total Price: 0.0
+ Expire Date: null
+ Created On: 2018-11-19 22:00:49
+ Created By: 10901
+2018-11-22 11:09:22 INFO  MyWebService:365 - Create rejected!    
+ID(Primary Key) already exists.
+2018-11-22 11:09:26 INFO  MyWebService:350 - Validation approved!    
+
+2018-11-22 11:09:26 INFO  MyWebService:393 - Create success!    
+The transaction record created is : 
+[ID: 8, NameOnCard: asdf, CardNumber: asdf, UnitPrice: 12.0, Quantity: 1, TotalPrice: 0.0, ExpDate: sadf, CreatedOn: 2018-11-22 11:09:26, CreatedBy: 10901, CreditCardType: null]
+2018-11-22 11:09:35 INFO  MyWebService:481 - Get rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 11:09:39 INFO  MyWebService:481 - Get rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 11:09:49 INFO  MyWebService:502 - Get approved!    
+ ID: 1
+ Name On Card: Qian Cai
+ Card Number: 5212345678901234
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 02/2020
+ Created On: 2018-11-19 17:51:25
+ Created By: 10901
+2018-11-22 11:09:50 INFO  MyWebService:502 - Get approved!    
+ ID: 2
+ Name On Card: Yibang Cai
+ Card Number: null
+ Unit Price: 0.0
+ Quantity: 0
+ Total Price: 0.0
+ Expire Date: null
+ Created On: 2018-11-19 22:00:49
+ Created By: 10901
+2018-11-22 11:09:52 INFO  MyWebService:502 - Get approved!    
+ ID: 3
+ Name On Card: Yixuan Fan
+ Card Number: 5212345678901234
+ Unit Price: 12.22
+ Quantity: 2
+ Total Price: 24.44
+ Expire Date: 02/2020
+ Created On: 2018-11-19 22:14:15
+ Created By: 10901
+2018-11-22 11:09:53 INFO  MyWebService:502 - Get approved!    
+ ID: 4
+ Name On Card: Ming Fan
+ Card Number: 5112345678901234
+ Unit Price: 12.0
+ Quantity: 12
+ Total Price: 144.0
+ Expire Date: 02/2020
+ Created On: 2018-11-19 22:47:22
+ Created By: 10901
+2018-11-22 11:09:55 INFO  MyWebService:481 - Get rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 11:09:56 INFO  MyWebService:502 - Get approved!    
+ ID: 6
+ Name On Card: asdf
+ Card Number: sdadf
+ Unit Price: 22.0
+ Quantity: 2
+ Total Price: 44.0
+ Expire Date: df
+ Created On: 2018-11-22 11:04:57
+ Created By: 10901
+2018-11-22 11:09:58 INFO  MyWebService:502 - Get approved!    
+ ID: 7
+ Name On Card: asdf
+ Card Number: sdf
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: asdf&
+ Created On: 2018-11-22 10:54:14
+ Created By: 10901
+2018-11-22 11:10:01 INFO  MyWebService:502 - Get approved!    
+ ID: 4
+ Name On Card: Ming Fan
+ Card Number: 5112345678901234
+ Unit Price: 12.0
+ Quantity: 12
+ Total Price: 144.0
+ Expire Date: 02/2020
+ Created On: 2018-11-19 22:47:22
+ Created By: 10901
+2018-11-22 11:10:02 INFO  MyWebService:502 - Get approved!    
+ ID: 3
+ Name On Card: Yixuan Fan
+ Card Number: 5212345678901234
+ Unit Price: 12.22
+ Quantity: 2
+ Total Price: 24.44
+ Expire Date: 02/2020
+ Created On: 2018-11-19 22:14:15
+ Created By: 10901
+2018-11-22 11:10:04 INFO  MyWebService:502 - Get approved!    
+ ID: 2
+ Name On Card: Yibang Cai
+ Card Number: null
+ Unit Price: 0.0
+ Quantity: 0
+ Total Price: 0.0
+ Expire Date: null
+ Created On: 2018-11-19 22:00:49
+ Created By: 10901
+2018-11-22 11:10:06 INFO  MyWebService:502 - Get approved!    
+ ID: 1
+ Name On Card: Qian Cai
+ Card Number: 5212345678901234
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 02/2020
+ Created On: 2018-11-19 17:51:25
+ Created By: 10901
+2018-11-22 11:10:08 INFO  MyWebService:502 - Get approved!    
+ ID: 7
+ Name On Card: asdf
+ Card Number: sdf
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: asdf&
+ Created On: 2018-11-22 10:54:14
+ Created By: 10901
+2018-11-22 11:10:23 INFO  MyWebService:350 - Validation approved!    
+
+2018-11-22 11:10:23 INFO  MyWebService:451 - Update success!    
+The transaction record updated is : 
+[ID: 7, NameOnCard: Qian, CardNumber: 12, UnitPrice: 12.0, Quantity: 12, TotalPrice: 0.0, ExpDate: sdfa, CreatedOn: 2018-11-22 11:10:23, CreatedBy: 10901, CreditCardType: null]
+2018-11-22 11:10:29 INFO  MyWebService:502 - Get approved!    
+ ID: 7
+ Name On Card: Qian
+ Card Number: 12
+ Unit Price: 12.0
+ Quantity: 12
+ Total Price: 144.0
+ Expire Date: sdfa
+ Created On: 2018-11-22 11:10:23
+ Created By: 10901
+2018-11-22 11:10:40 INFO  MyWebService:559 - Delete rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 11:10:44 INFO  MyWebService:571 - Delete approved!    
+
+2018-11-22 11:11:52 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 11:16:14 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 11:16:24 INFO  MyWebService:203 - Get approved!    
+ ID: 1
+ Name On Card: Qian Cai
+ Card Number: 5212345678901234
+ Unit Price: 12.0
+ Quantity: 2
+ Total Price: 24.0
+ Expire Date: 02/2020
+ Created On: 2018-11-19 17:51:25
+ Created By: 10901
+2018-11-22 11:16:34 INFO  MyWebService:51 - Validation approved!    
+
+2018-11-22 11:16:34 INFO  MyWebService:94 - Create success!    
+The transaction record created is : 
+[ID: 5, NameOnCard: asdf, CardNumber: asfa, UnitPrice: 123.0, Quantity: 12, TotalPrice: 0.0, ExpDate: sdfaf, CreatedOn: 2018-11-22 11:16:34, CreatedBy: 10901, CreditCardType: null]
+2018-11-22 11:16:50 INFO  MyWebService:51 - Validation approved!    
+
+2018-11-22 11:16:50 INFO  MyWebService:152 - Update success!    
+The transaction record updated is : 
+[ID: 5, NameOnCard: Qian, CardNumber: 123123, UnitPrice: 12.0, Quantity: 1, TotalPrice: 0.0, ExpDate: aasdfa, CreatedOn: 2018-11-22 11:16:50, CreatedBy: 10901, CreditCardType: null]
+2018-11-22 11:16:57 INFO  MyWebService:260 - Delete rejected!    
+ID(Primary Key) does NOT exists.
+2018-11-22 11:17:00 INFO  MyWebService:272 - Delete approved!    
+
+2018-11-22 11:17:30 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.

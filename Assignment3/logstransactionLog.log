@@ -1,0 +1,3 @@
+2018-11-22 10:03:37 WARN  JavaUtils:1308 - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2018-11-22 10:03:39 INFO  MyWebService:55 - Get successful!    
+

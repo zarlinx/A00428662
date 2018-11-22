@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
-	<item value="C:\Users\10901\eclipse-workspace\A00428662-MCDA5510\Assignment3\lib" key="org.eclipse.jdt.ui.lastextjar"/>
+	<item value="false" key="TypeHierarchyViewPart.qualifiednames"/>
+	<item value="3" key="TypeHierarchyViewPart.orientation"/>
+	<item value="false" key="TypeHierarchyViewPart.linkeditors"/>
+	<item value="C:\Users\10901\eclipse-workspace\A00428662-MCDA5510\Assignment3beta\lib" key="org.eclipse.jdt.ui.lastextjar"/>
 	<item value="filter_imports;" key="filters_last_used"/>
+	<item value="2" key="TypeHierarchyViewPart.hierarchyview"/>
 	<section name="org.eclipse.jdt.internal.ui.packageview.PackageExplorerPart">
 		<item value="2" key="layout"/>
 		<item value="true" key="group_libraries"/>
@@ -16,8 +20,8 @@
 			<item value="600" key="DIALOG_WIDTH"/>
 			<item value="1|Segoe UI|9.0|0|WINDOWS|1|-24|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI" key="DIALOG_FONT_NAME"/>
 			<item value="500" key="DIALOG_HEIGHT"/>
-			<item value="6" key="DIALOG_X_ORIGIN"/>
-			<item value="0" key="DIALOG_Y_ORIGIN"/>
+			<item value="233" key="DIALOG_X_ORIGIN"/>
+			<item value="-1" key="DIALOG_Y_ORIGIN"/>
 		</section>
 	</section>
 	<section name="NewClassWizardPage">
